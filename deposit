@@ -1,0 +1,13 @@
+pragma solidity ^0.4.0;
+
+contract supportPay{
+
+  //存入一些ether用于后面的测试
+  function deposit() payable{
+  }
+
+  //查询当前的余额
+  function getBalance() constant returns(uint){
+      return this.balance;
+  }
+}
